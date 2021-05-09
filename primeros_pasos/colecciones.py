@@ -51,3 +51,13 @@ miTupla = (2, 5, 7, 8)
 print(miTupla[1])
 # miTupla[1] = 2   # No se puede realizar, lanza excepcion ya que la stuplas son inmutables
 print(miTupla.index(7))  # devuelve la posicion del 7
+
+'''
+Conjunto 
+no puede haber repetidos
+'''
+print()
+conjunto = set([1, 2, 3 , 4, 4])
+
+for ele in conjunto:
+    print(ele)
