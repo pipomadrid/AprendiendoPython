@@ -31,8 +31,7 @@ estructuras clave - valor
 
 alineacion = {'Sergio Ramos': 'defensa', 'Modric': 'centrocampista', 'Rodrigo': 'delantero'}
 print(alineacion.get('Sergio Ramos'))  # obtenemos el valor correspondiente a la clave introducida
-print(alineacion.pop(
-    'Modric'))  # Devuelve el valor que corresponde con la key introducida, y luego borra la key y el valor.
+print(alineacion.pop('Modric'))  # Devuelve el valor que corresponde con la key introducida, y luego borra la key y el valor.
 print(alineacion)
 alineacion.update({'kroos': 'centrocampista'})  # inserta clave-valor o actualiza el valor si ya existe
 print(alineacion)
